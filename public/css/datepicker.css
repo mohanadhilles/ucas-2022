@@ -1,0 +1,109 @@
+.ui-state-disabled {
+    cursor: default !important;
+}
+
+.ll-skin-melon .ui-datepicker {
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    padding: 0;
+    background: #e9eaf0;
+    width: 100%;
+}
+
+.ll-skin-melon .ui-datepicker-header {
+    border-bottom: 1px solid #e0e1e7;
+    background: transparent;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-next,
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev {
+    color: #4c5373;
+    width: 7px;
+    position: relative;
+    float: left;
+    top: 3px !important;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-next i,
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev i {
+    font-size: 20px;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev-hover,
+.ll-skin-melon .ui-datepicker .ui-datepicker-next-hover,
+.ll-skin-melon .ui-datepicker .ui-datepicker-next,
+.ll-skin-melon .ui-datepicker .ui-datepicker-prev {
+    top: .9em;
+    border: none;
+}
+
+.ll-skin-melon .ui-datepicker .ui-datepicker-title {
+    color: #4c5373;
+    line-height: 1.8em;
+    margin-right: 20px;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+    width: 49%;
+}
+
+.ll-skin-melon .ui-datepicker table {
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+}
+
+.ll-skin-melon .ui-datepicker th {
+    border: none;
+    color: #000;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 0.6 !important;
+    background: #fff !important;
+    padding: 6px 0;
+    text-align: center;
+    border: 0;
+    border-top: 1px solid #3a414d;
+}
+
+.ll-skin-melon .ui-datepicker td {
+    width: 30px;
+    background: #ffffff;
+}
+
+.ll-skin-melon td .ui-state-default {
+    border: 1px solid #d9dce5;
+    text-align: center;
+    padding: 1px 0 !important;
+    margin: 1px !important;
+    font-weight: normal;
+    color: #4c5373;
+    font-size: 14px;
+    border-radius: 2px;
+    display: block;
+}
+
+.ll-skin-melon td .ui-state-active {
+    background: #ff8263 !important;
+    border: 1px solid #d66e55;
+    color: #ffffff;
+}
+
+.ll-skin-melon td .ui-state-hover {
+    background: #c5c5c5 ;
+    border: 1px solid #c5c5c5;
+    color: #ffffff;
+}
+
+.ll-skin-melon .ui-state-disabled {
+    opacity: 1;
+}
+
+.ll-skin-melon .ui-state-disabled .ui-state-default {
+    color: #b6bacc;
+}

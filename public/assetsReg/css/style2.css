@@ -1,0 +1,280 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.logo{
+	float: left;
+	padding-left: 200px;
+}
+
+.header_items{
+	float: right;
+	padding-right: 200px;
+}
+
+.header_list{
+	list-style-type: none;
+}
+
+.clear{
+	clear: both;
+}
+
+.login{
+	width: 310px;
+	height: 252px;
+  border: 3px solid #f6f4f5;
+  border-radius: 7px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.slash{
+	font-size: 30px;
+	color: #1c7dbc;
+}
+
+.nafza{
+	color: #525252;
+	font-size: 25px;
+	font-family: tahoma;
+}
+
+.logo_txt{
+	padding: 1.17% 0px 11.5% 0px;
+}
+.logo_txt2{
+	padding: 1.17% 0px 1.17% 0px;
+}
+
+
+.ema , .pass{
+  margin: 0;
+  width: 245px;
+  height: 37px;
+  font-size: 15px;
+  color: #484848;
+  font-family: tahoma;
+  padding:0px 100px 0px 5px;
+  border-radius: 0px 3px 3px 0px;
+  border: none;
+}
+
+.ema{
+  background:url(../images/login.png);
+  background-color:  #e3e3e3;
+  background-repeat: no-repeat;
+  background-position: right 0px center;
+}
+
+.pass{
+  background:url(../images/password.png);
+  background-color: #e3e3e3;
+  background-repeat: no-repeat;
+  background-position: right 0px center;
+}
+
+.ema:hover{
+  background:url(../images/login.png);
+  background-color: #e3e3e3;
+  background-repeat: no-repeat;
+  background-position: right -5px center;
+}
+
+.pass:hover{
+  background:url(../images/password.png);
+  background-color: #e3e3e3;
+  background-repeat: no-repeat;
+  background-position: right -5px center;
+}
+
+.login_inputs{
+  margin-top: -6px;
+}
+
+.crids{
+  float: right;
+  padding-right: 8px;
+}
+.crids2{
+  padding-right: 8px;
+}
+
+.password{
+  margin-top: 9px
+}
+
+.login_button{
+  padding-left: 15px;
+}
+
+.button{
+  width: 41px;
+  height: 83px;
+  color: white ;
+  border: 1px solid;  
+  cursor: pointer;
+  font-size: 16px;
+  font-family: tahoma;
+  background-image: url(../images/button.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #90c936;
+  transition: background-color .2s;
+  -webkit-transition: background-color .2s;
+  -moz-transition: background-color .2s;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.button:hover{
+  color: #90c936 ;
+  border: 1px solid;
+  border-radius:3px;
+  background-image: url(../images/button2.png);
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: background-color color .5s;
+  -webkit-transition: background-color color .5s;
+  -moz-transition: background-color color .5s;
+}
+
+.button2{
+  width: 41px;
+  height: 152px;
+  color: white;
+  border: 1px solid;
+  cursor: pointer;
+  margin-top: -152px;
+  font-size: 16px;
+  font-family: tahoma;
+  background-image: url(../images/button.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #90c936;
+  transition: background-color .2s;
+  -webkit-transition: background-color .2s;
+  -moz-transition: background-color .2s;
+  border-radius: 3px 0px 0px 3px;
+  float: left;
+}
+
+.button3{
+width: 41px;
+height: 85px;
+color: #FFF;
+border: 1px solid;
+cursor: pointer;
+margin-top: -110px;
+font-size: 16px;
+font-family: tahoma;
+background-image: url("../images/navigate-right.png");
+background-repeat: no-repeat;
+background-position: center center;
+background-color: #90C936;
+transition: background-color 0.2s ease 0s;
+border-radius: 3px 0px 0px 3px;
+float: right;
+margin-right: 20px;
+}
+
+.button:hover{
+  color: #90c936 ;
+  border: 1px solid;
+  border-radius:3px;
+  background-image: url(../images/button2.png);
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: background-color color .5s;
+  -webkit-transition: background-color color .5s;
+  -moz-transition: background-color color .5s;
+}
+
+.forget_pass, .new_user, .log_in{
+  width: 49.6%;
+  height: 36px;
+  border: none;
+  color: #525252;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 14.8%;
+  font-family: tahoma;
+  background-repeat: no-repeat;
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.forget_pass1, .new_user1, .log_in1{
+  width: 49.6%;
+  height: 36px;
+  border: none;
+  color: #525252;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10%;
+  font-family: tahoma;
+  background-repeat: no-repeat;
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.forget_pass2, .new_user2, .log_in2{
+  width: 49.5%;
+  height: 36px;
+  border: none;
+  color: #525252;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10%;
+  font-family: tahoma;
+  background-repeat: no-repeat;
+  background-color: rgba(196, 196, 196, 0.5);
+}
+.forget_pass{
+  background-image: url(../images/forgot.png);
+  background-position: right 16px center;
+}
+.forget_pass1{
+  background-image: url(../images/forgot.png);
+  background-position: right 16px center;
+}
+.forget_pass2{
+  background-image: url(../images/forgot.png);
+  background-position: right 16px center;
+}
+.new_user{
+  padding-right: 35px;
+  background-image: url(../images/new_user.png);
+  background-position: right 16px center;
+}
+.new_user1{
+  padding-right: 35px;
+  background-image: url(../images/new_user.png);
+  background-position: right 16px center;
+}
+.new_user2{
+  padding-right: 35px;
+  background-image: url(../images/new_user.png);
+  background-position: right 16px center;
+}
+.log_in{
+  padding-right: 35px;
+  background-image: url(../images/new_user.png);
+  background-position: right 16px center;
+}
+.log_in1{
+  padding-right: 35px;
+  background-image: url(../images/new_user.png);
+  background-position: right 16px center;
+}
+.log_in2{
+  padding-right: 35px;
+  background-image: url(../images/new_user.png);
+  background-position: right 16px center;
+}
+
+.lost_new{
+  padding-right: 0px;
+  padding-bottom: 20px;
+}
+
+
+
+
